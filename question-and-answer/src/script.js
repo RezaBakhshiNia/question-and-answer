@@ -32,11 +32,15 @@ const getRandomNumber = (num) => {
 };
 
 const questions = [
-  "Will you marry me? 👑",
+  "Will you marry me? 🌹",
   "Will you be my queen? 👑",
   "هل أنت روحي ونبض قلبي؟ 💖",
-  "آیا تو ملکه‌ی قلب من هستی؟ 👑"
+  "¿Quieres casarte conmigo?🪻🌻",
+  "Ты выйдешь за меня?💐",
+  "你愿意嫁给我吗？🎎",
+  "با من ازدواج می‌کنی؟ 🦄🌷"
 ];
+
 
 let currentIndex = 0;
 
@@ -47,7 +51,7 @@ yesButton.addEventListener("click", function () {
       questionText.innerHTML = questions[currentIndex];
       confetti(); // Keep the confetti effect
   } else {
-      questionText.innerHTML = "You said YES! 💍🥳";
+      questionText.innerHTML = "You said YES! 💍🥳🌹";
       confetti();
   }
 });
